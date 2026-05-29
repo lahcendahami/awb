@@ -5,9 +5,8 @@
 
     <groupId>com.example-12</groupId>
     <artifactId>monorepo</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <!-- add a comment here d-->
     <modules>
         <module>services</module>
         <module>shared-libs</module>
