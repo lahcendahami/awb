@@ -20,7 +20,7 @@ public class OrderRequest {
     @Min(value = 1, message = "Quantity must be at least 1")
     private int quantity;
 
-    @NotNull(message = "Total price is required")
+    @NotNull(message = "Total price is required !!")
     @Positive(message = "Total price must be positive")
     private BigDecimal totalPrice;
 }
